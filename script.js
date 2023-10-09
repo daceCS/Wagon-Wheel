@@ -6,11 +6,11 @@ let wheelSpeed = rootStyles.getPropertyValue("--wheel-speed");
 function changeSpeed() {
   speed = document.getElementById("speed-slider").value;
   if (speed == 10) {
-    root.style.setProperty("--wheel-speed", "0.1s");
+    root.style.setProperty("--wheel-speed", "0.07s");
   } else if (speed == 9) {
-    root.style.setProperty("--wheel-speed", "0.2s");
+    root.style.setProperty("--wheel-speed", "0.1s");
   } else if (speed == 8) {
-    root.style.setProperty("--wheel-speed", "0.4s");
+    root.style.setProperty("--wheel-speed", "0.3s");
   } else if (speed == 7) {
     root.style.setProperty("--wheel-speed", "0.6s");
   } else if (speed == 6) {
